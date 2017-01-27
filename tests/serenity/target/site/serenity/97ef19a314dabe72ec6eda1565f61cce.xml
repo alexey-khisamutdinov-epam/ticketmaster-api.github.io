@@ -1,0 +1,42 @@
+<acceptance-test-run title="(/blogs/) Verification for general page&apos;s elements" name="(/blogs/) Verification for general page&apos;s elements" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="2612" timestamp="2017-01-27T23:10:17.791Z" session-id="b100a1c8-b818-4a69-ac1e-a506d4830ca8">
+  <user-story id="OpenSource" name="Open source" path="stories/site/OpenSource.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Open source" type="story"/>
+    <tag name="Site/Open source" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>elementKey</header>
+      <header>pageURL</header>
+      <header>pageTitle</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Open Source</value>
+        <value>http://code.ticketmaster.com/</value>
+        <value>//h1[@id=&apos;logo&apos;]</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {elementKey=Open Source, pageURL=http://code.ticketmaster.com/, pageTitle=//h1[@id=&apos;logo&apos;]}" result="SUCCESS">
+    <test-group name="Given open Home page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2235">
+        <description>Open page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When check visibility and click {Open Source} element of Home page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="332">
+        <description>Validate and click element: Open Source</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then check that new page opened from Home page has {http://code.ticketmaster.com/} and {//h1[@id=&apos;logo&apos;]}" result="SUCCESS">
+      <test-step result="SUCCESS" duration="28">
+        <description>Check if page is opened: http://code.ticketmaster.com/, //h1[@id=&apos;logo&apos;], http://127.0.0.1:4000</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

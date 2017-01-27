@@ -1,0 +1,65 @@
+<acceptance-test-run title="(/products-and-docs/widgets/event-discovery/) TECHNICAL TAB - Check that KEYWORD field functionality works properly" name="(/products-and-docs/widgets/event-discovery/) TECHNICAL TAB - Check that KEYWORD field functionality works properly" steps="6" successful="5" failures="1" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="13599" timestamp="2017-01-27T23:23:30.195Z" session-id="bc9cddce-d923-482a-96b7-fca6d7d76c14">
+  <user-story id="EventDiscoveryWidget" name="Event discovery widget" path="stories/site/widgets/EventDiscoveryWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Event discovery widget" type="story"/>
+    <tag name="Widgets/Event discovery widget" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>keyword</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>ADELE</value>
+      </row>
+      <row result="FAILURE">
+        <value>STING</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {keyword=ADELE}" result="SUCCESS">
+    <test-group name="Given open Event Discovery Widget page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="3573">
+        <description>Open page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When search events by keyword {ADELE} on Event Discovery Widget page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="299">
+        <description>Search events by keyword: ADELE</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then found events contains {ADELE} on Event Discovery Widget page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2780">
+        <description>Check that found events contains text: ADELE</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[2] {keyword=STING}" result="FAILURE">
+    <test-group name="Given open Event Discovery Widget page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2970">
+        <description>Open page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When search events by keyword {STING} on Event Discovery Widget page" result="SUCCESS">
+      <test-step result="SUCCESS" duration="259">
+        <description>Search events by keyword: STING</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then found events contains ｟STING｠ on Event Discovery Widget page" result="FAILURE">
+      <test-step result="FAILURE" duration="3687">
+        <screenshots>
+          <screenshot image="ab3c1dbb4994ee15a870fa8398faf830.png" source="pagesource5639228259780245443.html.txt"/>
+        </screenshots>
+        <description>Check that found events contains text: STING</description>
+        <error>java.lang.AssertionError: Poster windows does not contains STING, but has next text: SCHOOL OF ROCK BRUNCH: THE POLICE</error>
+        <exception>java.lang.AssertionError:Poster windows does not contains STING, but has next text: SCHOOL OF ROCK BRUNCH: THE POLICE
+[bla.tm.steps.products_and_docs.PD_Widget_EventDiscoverySteps.checkThatFoundEventsContainsText(PD_Widget_EventDiscoverySteps.java:134), bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition.checkThatFoundEventsContainsText(EventDiscoveryWidgetDefinition.java:56)]</exception>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

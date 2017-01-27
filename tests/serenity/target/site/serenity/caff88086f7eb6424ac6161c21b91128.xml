@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/widgets/calendar/) TECHNICAL TAB - Check that required fields are not empty" name="(/products-and-docs/widgets/calendar/) TECHNICAL TAB - Check that required fields are not empty" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4265" timestamp="2017-01-27T23:12:55.157Z" session-id="795c999f-59d3-40c3-a560-2a3a7dfa7c0a">
+  <user-story id="CalendarWidget" name="Calendar widget" path="stories/site/widgets/CalendarWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Calendar widget" type="story"/>
+    <tag name="Widgets/Calendar widget" type="story"/>
+  </tags>
+  <test-group name="Given open Calendar Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3874">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the required fields are not empty on the Calendar Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="202">
+      <description>Api key field is not empty</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="112">
+      <description>Zip code is not empty</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="54">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

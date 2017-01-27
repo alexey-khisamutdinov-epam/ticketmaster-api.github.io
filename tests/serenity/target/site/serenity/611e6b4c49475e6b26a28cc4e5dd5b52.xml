@@ -1,0 +1,27 @@
+<acceptance-test-run title="(/products-and-docs/widgets/event-discovery/) Event message - Check event message for invalid Keyword" name="(/products-and-docs/widgets/event-discovery/) Event message - Check event message for invalid Keyword" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="3084" timestamp="2017-01-27T23:25:28.234Z" session-id="bc9cddce-d923-482a-96b7-fca6d7d76c14">
+  <user-story id="EventDiscoveryWidget" name="Event discovery widget" path="stories/site/widgets/EventDiscoveryWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Event discovery widget" type="story"/>
+    <tag name="Widgets/Event discovery widget" type="story"/>
+  </tags>
+  <test-group name="Given open Event Discovery Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1591">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When search events by keyword {ABRAKADABRA} on Event Discovery Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="584">
+      <description>Search events by keyword: ABRAKADABRA</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the event message is shown &quot;Here other options for you.&quot;" result="SUCCESS">
+    <test-step result="SUCCESS" duration="849">
+      <description>Check that event message is shown: Here other options for you.</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="35">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

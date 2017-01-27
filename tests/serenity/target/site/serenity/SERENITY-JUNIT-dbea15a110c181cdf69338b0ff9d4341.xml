@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Pd  discovery apiv1" skipped="0" tests="1" time="1.97" timestamp="2017-01-27 11:09:06"><testcase name="(/products-and-docs/apis/discovery/v1/) Verification for general page's elements"><failure message="expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;" type="org.junit.ComparisonFailure">expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;</failure><system-err>expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;
+bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps.checkIfTitleIsCorrect(PD_DiscoveryAPIv1Steps.java:25)
+bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition.checkGeneralPageElements(PD_DiscoveryAPIv1Definition.java:46)
+</system-err></testcase></testsuite>

@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/support/contact-us/) Verification for general page&apos;s elements" name="(/support/contact-us/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12828" timestamp="2017-01-27T23:17:11.571Z" session-id="5d75f97a-c5d1-4813-93fc-fd2a9b2a3c9e">
+  <user-story id="Support_ContactUs" name="Support  contact us" path="stories/site/support/Support_ContactUs.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Support" type="feature"/>
+    <tag name="Support  contact us" type="story"/>
+    <tag name="Support/Support contact us" type="story"/>
+  </tags>
+  <test-group name="Given open Contact Us page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2561">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Contact Us Page, where DISQUS = {false} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="75">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="10153">
+      <description>Check general page elements: false, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="26">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

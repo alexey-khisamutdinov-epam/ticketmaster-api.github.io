@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/widgets/checkout/) Verification for general page&apos;s elements" name="(/products-and-docs/widgets/checkout/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="3708" timestamp="2017-01-27T23:22:46.877Z" session-id="a2a98c67-9cca-4010-a25e-99131ff25424">
+  <user-story id="PD_Widget_UniversalCheckout" name="Pd  widget  universal checkout" path="stories/site/products_and_docs/PD_Widget_UniversalCheckout.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  widget  universal checkout" type="story"/>
+    <tag name="Products and docs/Pd widget universal checkout" type="story"/>
+  </tags>
+  <test-group name="Given open Universal Checkout page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3042">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Universal Checkout Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="306">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="321">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="28">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

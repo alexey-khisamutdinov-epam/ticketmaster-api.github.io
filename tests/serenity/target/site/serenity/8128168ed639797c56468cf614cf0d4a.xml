@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/api-explorer/) Verification for general page&apos;s elements" name="(/api-explorer/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="13864" timestamp="2017-01-27T23:17:36.262Z" session-id="021e4264-d383-4058-a5d7-f138a6f0d322">
+  <user-story id="PD_APIExplorer" name="Pd api explorer" path="stories/site/products_and_docs/PD_APIExplorer.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd api explorer" type="story"/>
+    <tag name="Products and docs/Pd api explorer" type="story"/>
+  </tags>
+  <test-group name="Given open API Explorer page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3016">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for API Explorer Page, where DISQUS = {true} and LeftMenu = {false}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="624">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="10186">
+      <description>Check general page elements: true, false</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="22">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

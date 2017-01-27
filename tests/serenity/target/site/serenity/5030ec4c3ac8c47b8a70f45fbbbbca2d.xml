@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) Verification for general page&apos;s elements" name="(/products-and-docs/widgets/countdown/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="3676" timestamp="2017-01-27T23:12:12.679Z" session-id="af096b48-9dfd-4d11-98e5-2802babeff77">
+  <user-story id="PD_Widget_Countdown" name="Pd  widget  countdown" path="stories/site/products_and_docs/PD_Widget_Countdown.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  widget  countdown" type="story"/>
+    <tag name="Products and docs/Pd widget countdown" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3208">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Countdown Widget Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="121">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="288">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="37">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

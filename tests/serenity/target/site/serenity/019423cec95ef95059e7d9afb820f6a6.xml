@@ -1,0 +1,43 @@
+<acceptance-test-run title="(developer-acct.ticketmaster.com/user/1554/edit) Verification for general page&apos;s elements" name="(developer-acct.ticketmaster.com/user/1554/edit) Verification for general page&apos;s elements" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="31525" timestamp="2017-01-27T23:08:11.763Z" session-id="0679ccd1-c0b1-4580-9b80-07fede36725e">
+  <user-story id="EditProfile" name="Edit profile" path="stories/site/pantheon/EditProfile.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Pantheon" type="feature"/>
+    <tag name="Edit profile" type="story"/>
+    <tag name="Pantheon/Edit profile" type="story"/>
+  </tags>
+  <test-group name="Given open Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2417">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon LogIn page from Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="795">
+      <description>Click log in</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="249">
+      <description>Is page opened</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon User Account page from LogIn page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4448">
+      <description>Log in to account</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon Edit Profile page from User Account page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3286">
+      <description>Navigate to edit profile page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Pantheon Edit Profile page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="140">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="20126">
+      <description>Check general page elements</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="24">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

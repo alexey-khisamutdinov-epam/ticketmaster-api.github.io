@@ -1,0 +1,21 @@
+<acceptance-test-run title="(/Home Page/) Verification for twitter&apos;s list of events" name="(/Home Page/) Verification for twitter&apos;s list of events" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="2238" timestamp="2017-01-27T23:07:14.187Z" session-id="441ff85f-e5a7-4552-8ba0-ed79daf3fdc7">
+  <user-story id="Home" name="Home" path="stories/site/Home.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Home" type="story"/>
+    <tag name="Site/Home" type="story"/>
+  </tags>
+  <test-group name="Given open Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2149">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check that Twitter&apos;s list of events is shown" result="SUCCESS">
+    <test-step result="SUCCESS" duration="29">
+      <description>Is displayed twitters list</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="32">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

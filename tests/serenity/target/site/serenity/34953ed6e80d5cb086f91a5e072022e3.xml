@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/apis/international-discovery/) Verification for general page&apos;s elements" name="(/products-and-docs/apis/international-discovery/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="8540" timestamp="2017-01-27T23:22:50.769Z" session-id="50d568ce-c115-4341-b8c4-6b34e2fd53c8">
+  <user-story id="PD_InternationalDiscoveryAPI" name="Pd  international discovery API" path="stories/site/products_and_docs/PD_InternationalDiscoveryAPI.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  international discovery API" type="story"/>
+    <tag name="Products and docs/Pd international discovery api" type="story"/>
+  </tags>
+  <test-group name="Given open International Discovery API page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="7093">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for International Discovery API Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="380">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1019">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="35">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,32 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/site/products_and_docs/PD_DiscoveryAPIV1.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">As a</span> test engineer</div>
+<div class="element asA"><span class="keyword asA">I want to</span> test Ticket Master Developer's site</div>
+<div class="element iWantTo"><span class="keyword iWantTo">So that</span> I test Discovery API v1 Page of Ticket Master Developer's site</div>
+</div>
+<div class="scenario">
+<h2>Scenario: (/products-and-docs/apis/discovery/v1/) Verification for general page's elements</h2>
+<div class="step successful">Given open Discovery API v1 page</div>
+<div class="step failed">Then check general page elements for Discovery API v1 Page, where DISQUS = <span class="step parameter">true</span> and LeftMenu = <span class="step parameter">true</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.junit.ComparisonFailure: expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;</span></div>
+<pre class="failure">org.junit.ComparisonFailure: expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps.checkIfTitleIsCorrect(PD_DiscoveryAPIv1Steps.java:25)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$9430974a.CGLIB$checkIfTitleIsCorrect$4(&lt;generated&gt;)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$9430974a$$FastClassByCGLIB$$af2a845d.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$9430974a.checkIfTitleIsCorrect(&lt;generated&gt;)
+	at bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition.checkGeneralPageElements(PD_DiscoveryAPIv1Definition.java:46)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</pre>
+</div>
+</div>

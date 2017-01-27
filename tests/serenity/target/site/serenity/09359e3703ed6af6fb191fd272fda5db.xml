@@ -1,0 +1,22 @@
+<acceptance-test-run title="(/partners/certified-partners/nexus/) Verification for general page&apos;s elements" name="(/partners/certified-partners/nexus/) Verification for general page&apos;s elements" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="2771" timestamp="2017-01-27T23:17:08.729Z" session-id="fa690f31-0ffa-4bd5-8c1e-8ecad762be59">
+  <user-story id="Partners_Nexus" name="Partners  nexus" path="stories/site/partners/Partners_Nexus.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Partners" type="feature"/>
+    <tag name="Partners  nexus" type="story"/>
+    <tag name="Partners/Partners nexus" type="story"/>
+  </tags>
+  <test-group name="Given open Join The Nexus Program page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2334">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Join The Nexus Program Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="400">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="20">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

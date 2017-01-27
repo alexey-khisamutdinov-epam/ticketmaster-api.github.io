@@ -1,0 +1,32 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) Event message - Check event message for invalid Event ID" name="(/products-and-docs/widgets/countdown/) Event message - Check event message for invalid Event ID" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="2457" timestamp="2017-01-27T23:22:41.013Z" session-id="f08572fc-9810-47fd-80e4-4831791f7693">
+  <user-story id="CountdownWidget" name="Countdown widget" path="stories/site/widgets/CountdownWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Countdown widget" type="story"/>
+    <tag name="Widgets/Countdown widget" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1316">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And enter custom EventId {&quot;invalidEventId123&quot;}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="438">
+      <description>Set event id: &quot;invalidEventId123&quot;</description>
+    </test-step>
+  </test-group>
+  <test-group name="When submit form" result="SUCCESS">
+    <test-step result="SUCCESS" duration="59">
+      <description>Submit form</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the event message is shown &quot;No results were found&quot;" result="SUCCESS">
+    <test-step result="SUCCESS" duration="601">
+      <description>Check that event message is shown: No results were found</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="22">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

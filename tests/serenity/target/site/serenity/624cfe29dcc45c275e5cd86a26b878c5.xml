@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/partners/startups-and-developers/) Verification for general page&apos;s elements" name="(/partners/startups-and-developers/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4521" timestamp="2017-01-27T23:18:16.477Z" session-id="de36e741-7d72-4521-a342-d71a38f8af94">
+  <user-story id="Partners_StartupsDevelopers" name="Partners  startups developers" path="stories/site/partners/Partners_StartupsDevelopers.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Partners" type="feature"/>
+    <tag name="Partners  startups developers" type="story"/>
+    <tag name="Partners/Partners startups developers" type="story"/>
+  </tags>
+  <test-group name="Given open Startups and Developers page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4181">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Startups and Developers Page, where DISQUS = {true} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="108">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="197">
+      <description>Check general page elements: true, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="24">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

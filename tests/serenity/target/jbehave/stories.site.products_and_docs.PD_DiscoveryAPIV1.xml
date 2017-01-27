@@ -1,0 +1,29 @@
+<story path="stories/site/products_and_docs/PD_DiscoveryAPIV1.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">test engineer</inOrderTo>
+  <asA keyword="I want to">test Ticket Master Developer&apos;s site</asA>
+  <iWantTo keyword="So that">I test Discovery API v1 Page of Ticket Master Developer&apos;s site</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="(/products-and-docs/apis/discovery/v1/) Verification for general page&apos;s elements">
+<step outcome="successful">Given open Discovery API v1 page</step>
+<step outcome="failed" keyword="FAILED">Then check general page elements for Discovery API v1 Page, where DISQUS = <parameter>true</parameter> and LeftMenu = <parameter>true</parameter><failure>org.junit.ComparisonFailure: expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;</failure></step>
+<failure>org.junit.ComparisonFailure: expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps.checkIfTitleIsCorrect(PD_DiscoveryAPIv1Steps.java:25)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$9430974a.CGLIB$checkIfTitleIsCorrect$4(&lt;generated&gt;)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$9430974a$$FastClassByCGLIB$$af2a845d.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$9430974a.checkIfTitleIsCorrect(&lt;generated&gt;)
+	at bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition.checkGeneralPageElements(PD_DiscoveryAPIv1Definition.java:46)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+</story>

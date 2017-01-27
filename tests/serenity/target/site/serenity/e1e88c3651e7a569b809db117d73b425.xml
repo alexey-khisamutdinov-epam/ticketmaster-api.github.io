@@ -1,0 +1,32 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) Event message - Check event message for invalid API Key" name="(/products-and-docs/widgets/countdown/) Event message - Check event message for invalid API Key" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="2247" timestamp="2017-01-27T23:22:38.761Z" session-id="f08572fc-9810-47fd-80e4-4831791f7693">
+  <user-story id="CountdownWidget" name="Countdown widget" path="stories/site/widgets/CountdownWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Countdown widget" type="story"/>
+    <tag name="Widgets/Countdown widget" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1289">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And enter custom ApiKey {{InvalidApiKey123}}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="464">
+      <description>Set api key: {InvalidApiKey123}</description>
+    </test-step>
+  </test-group>
+  <test-group name="When submit form" result="SUCCESS">
+    <test-step result="SUCCESS" duration="82">
+      <description>Submit form</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the event message is shown &quot;No results were found&quot;" result="SUCCESS">
+    <test-step result="SUCCESS" duration="367">
+      <description>Check that event message is shown: No results were found</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="25">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

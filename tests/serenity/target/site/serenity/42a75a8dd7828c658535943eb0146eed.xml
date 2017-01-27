@@ -1,0 +1,27 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Check links" name="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Check links" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="50621" timestamp="2017-01-27T23:21:07.136Z" session-id="f08572fc-9810-47fd-80e4-4831791f7693">
+  <user-story id="CountdownWidget" name="Countdown widget" path="stories/site/widgets/CountdownWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Countdown widget" type="story"/>
+    <tag name="Widgets/Countdown widget" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1023">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on the &apos;Get your own&apos; link to get api key" result="SUCCESS">
+    <test-step result="SUCCESS" duration="327">
+      <description>Get your own api key link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then The page is opened with url {https://developer-acct.ticketmaster.com}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="49232">
+      <description>Check that page is opened with url: https://developer-acct.ticketmaster.com</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="24">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,28 @@
+<acceptance-test-run title="(/products-and-docs/apis/discovery/v1/) Verification for general page&apos;s elements" name="(/products-and-docs/apis/discovery/v1/) Verification for general page&apos;s elements" steps="3" successful="1" failures="1" skipped="1" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="1967" timestamp="2017-01-27T23:09:06.952Z" session-id="b9e75b50-a506-429a-87f1-e7bf873b49a2">
+  <user-story id="PD_DiscoveryAPIV1" name="Pd  discovery apiv1" path="stories/site/products_and_docs/PD_DiscoveryAPIV1.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  discovery apiv1" type="story"/>
+    <tag name="Products and docs/Pd discovery apiv1" type="story"/>
+  </tags>
+  <test-group name="Given open Discovery API v1 page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1578">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Discovery API v1 Page, where DISQUS = ｟true｠ and LeftMenu = ｟true｠" result="FAILURE">
+    <test-step result="FAILURE" duration="328">
+      <screenshots>
+        <screenshot image="e6561599da4f226f728dd51ff3ca15a2.png" source="pagesource8444276200709141496.html.txt"/>
+      </screenshots>
+      <description>Check if title is correct</description>
+      <error>org.junit.ComparisonFailure: expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;</error>
+      <exception>org.junit.ComparisonFailure:expected:&lt;[Not Found]&gt; but was:&lt;[DISCOVERY API]&gt;
+[bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps.checkIfTitleIsCorrect(PD_DiscoveryAPIv1Steps.java:25), bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition.checkGeneralPageElements(PD_DiscoveryAPIv1Definition.java:46)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="1">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>
